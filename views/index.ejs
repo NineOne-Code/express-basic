@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Basic</title>
+</head>
+<body>
+    <p>Nama depan saya : <%= first %></p>
+    <p>Nama belakang saya : <%= last %></p>
+
+    <% for(let i = 0; i < fruits.length; i++) { %>
+        <p><%= fruits[i].name %></p>
+    <% } %>
+</body>
+</html>
